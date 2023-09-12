@@ -1,5 +1,4 @@
 from pyspark.sql import SparkSession
-# from pyspark.sql.functions import col
 
 def get_product_category_pairs(products_df, categories_df):
     # Создаем SparkSession
